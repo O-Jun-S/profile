@@ -1,0 +1,21 @@
+.container {
+    max-width: 1200px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.header_top {
+    color: #fff;
+    background: #000;
+}
+
+.header_top > .container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.area_logo_header .logo img{
+    height: 30px;
+    margin-bottom: 0;
+}
