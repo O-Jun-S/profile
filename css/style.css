@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 .container {
-    max-width: 1600px;
+    max-width: 1200px;
     padding: 0 40px;
     margin: 0 auto;
 }
@@ -12,6 +12,7 @@
 }
 
 .header_top > .container {
+    max-width: none;
     height: 60px;
     display: flex;
     align-items: center;
@@ -43,16 +44,20 @@ ul.list_nav_header {
     list-style: none;
 }
 
-.list_nav_header > li:hover {
-    opacity: 0.5;
+.list_nav_header > li {
+    padding: 0 40px;
 }
 
-.list_nav_header > li + li {
-    margin-left: 60px;
+.list_nav_header > li+li {
+    border-left: solid 1px #ccc;
 }
 
 .list_nav_header a {
     text-decoration: none;
     font-family: 'Noto Sans JP',sans-serif;
     font-size: 15px;
+}
+
+.list_nav_header a:hover {
+    opacity: 0.5;
 }
