@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     padding: 0 40px;
     margin: 0 auto;
 }
@@ -15,7 +17,42 @@
     align-items: center;
 }
 
+.area_logo_header .logo {
+    display: block;
+}
+
 .area_logo_header .logo img{
     height: 30px;
-    margin-bottom: 0;
+    vertical-align: bottom;
+}
+
+.area_nav_header {
+    margin-left: auto;
+}
+
+.area_nav_header a {
+    color: #fff;
+}
+
+.list_nav_header {
+    display: flex;
+    align-items: center;
+}
+
+ul.list_nav_header {
+    list-style: none;
+}
+
+.list_nav_header > li:hover {
+    opacity: 0.5;
+}
+
+.list_nav_header > li + li {
+    margin-left: 60px;
+}
+
+.list_nav_header a {
+    text-decoration: none;
+    font-family: 'Noto Sans JP',sans-serif;
+    font-size: 15px;
 }
