@@ -89,3 +89,22 @@ ul.list_nav_header {
     font-size: 60px;
     opacity: 0.8;
 }
+
+/* tablet */
+@media screen and (max-width: 959px) {
+}
+
+/* smartphone */
+@media screen and (max-width: 480px) {
+    .list_nav_header {
+        display: none;
+    }
+
+    .main_top > .container {
+        background-image: url(../img/small_eyecatch.png);
+    }
+
+    .main_top .eyecatch_title {
+        font-size: 30px;
+    }
+}
