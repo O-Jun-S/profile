@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body {
+    font-family: 'Noto Sans JP',sans-serif;
+}
+
+/* container */
+.container {
+    max-width: 1200px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+/* the header of top page */
+.header_top {
+    color: #fff;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* the container of top page header */
+.header_top > .container {
+    max-width: none;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+/* about logo */
+.area_logo_header .logo {
+    display: block;
+}
+
+.area_logo_header .logo img{
+    height: 40px;
+    vertical-align: bottom;
+}
+
+/* Fix the nav on right */
+.area_nav_header {
+    margin-left: auto;
+}
+
+.area_nav_header a {
+    color: #fff;
+}
+
+.list_nav_header {
+    display: flex;
+    align-items: center;
+}
+
+ul.list_nav_header {
+    list-style: none;
+}
+
+.list_nav_header > li {
+    padding: 0 40px;
+}
+
+.list_nav_header > li+li {
+    border-left: solid 1px #ccc;
+}
+
+.list_nav_header a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.list_nav_header a:hover {
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.main_top > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    max-width: none;
+    background-image: url(../img/eyecatch.png);
+}
+
+.main_top .eyecatch_title {
+    color: #fff;
+    font-size: 60px;
+    opacity: 0.8;
+}
