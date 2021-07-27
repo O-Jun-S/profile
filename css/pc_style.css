@@ -39,6 +39,7 @@ body {
     vertical-align: bottom;
 }
 
+/* Fix the nav on right */
 .area_nav_header {
     margin-left: auto;
 }
