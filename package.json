@@ -8,5 +8,6 @@
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Ojun",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
