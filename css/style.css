@@ -30,6 +30,20 @@ body {
 .p-header {
   color: #fff;
   background: #000; }
+  .p-header .c-button {
+    display: none; }
+
+.p-header__container {
+  padding: 0 40px;
+  margin: 0 auto;
+  height: 60px;
+  display: flex;
+  align-items: center; }
+
+.p-header__area_nav_header {
+  margin-left: auto; }
+  .p-header__area_nav_header a {
+    color: white; }
 
 .p-header__list_nav_header {
   display: flex;
@@ -44,14 +58,15 @@ body {
   .p-header__list_nav_header .c-link:hover {
     font-size: 20px; }
 
-.p-header__area_nav_header {
-  margin-left: auto; }
-  .p-header__area_nav_header a {
-    color: white; }
-
-.p-header__container {
-  padding: 0 40px;
-  margin: 0 auto;
-  height: 60px;
+.p-main_top__container {
   display: flex;
-  align-items: center; }
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  max-width: none;
+  background-image: url(../img/eyecatch.png); }
+
+.p-main_top__eyecatch_title {
+  color: #fff;
+  font-size: 60px;
+  opacity: 0.8; }

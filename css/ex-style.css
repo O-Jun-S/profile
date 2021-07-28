@@ -1,22 +1,3 @@
-button.c-button {
-    display: none;
-}
-
-.main_top > .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 900px;
-    max-width: none;
-    background-image: url(../img/eyecatch.png);
-}
-
-.main_top .eyecatch_title {
-    color: #fff;
-    font-size: 60px;
-    opacity: 0.8;
-}
-
 /* tablet */
 @media screen and (max-width: 959px) {
 }
