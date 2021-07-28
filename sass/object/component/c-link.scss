@@ -1,7 +1,9 @@
+// Delete the line of link (a-tag).
 .c-link {
     text-decoration: none;
 }
 
+// When the user points link, it will be transparent.
 .c-link:hover {
     opacity: 0.5;
 }

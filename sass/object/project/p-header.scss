@@ -1,9 +1,11 @@
+// The header.
 .p-header {
     color: #fff;
     background: #000;
     opacity: 0.7;
 }
 
+// Container for header.
 .p-header__container {
     padding: 0 40px;
     margin: 0 auto;
@@ -12,6 +14,7 @@
     align-items: center
 }
 
+// The area of navigation.
 .p-header__area_nav_header {
     margin-left: auto;
 
@@ -20,6 +23,7 @@
     }
 }
 
+// The list of navigation.
 .p-header__list_nav_header {
     display: flex;
     align-items: center;
@@ -33,6 +37,7 @@
         border-left: solid 1px #ccc;
     }
 
+    // Make c-link apporopriate size.
     .c-link {
         font-size: 15px;
     }

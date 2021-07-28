@@ -1,3 +1,6 @@
+// We use this when we want to hide things but
+// we want reading software to read aloud the sentence.
+// Ex: for visually impared people
 .u-visuallyHidden {
     position: absolute;
     white-space: nowrap;
