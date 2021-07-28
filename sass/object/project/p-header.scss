@@ -1,0 +1,42 @@
+.p-header {
+    color: #fff;
+    background: #000;
+}
+
+.p-header__list_nav_header {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    li {
+        padding: 0 40px;
+    }
+
+    li+li {
+        border-left: solid 1px #ccc;
+    }
+
+    .c-link {
+        font-size: 15px;
+    }
+
+    .c-link:hover {
+        font-size: 20px;
+    }
+}
+
+.p-header__area_nav_header {
+    margin-left: auto;
+
+    a {
+        color: white;
+    }
+}
+
+.p-header__container {
+        padding: 0 40px;
+        margin: 0 auto;
+        height: 60px;
+        display: flex;
+        align-items: center
+}
