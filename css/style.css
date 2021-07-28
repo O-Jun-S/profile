@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://unpkg.com/ress/dist/ress.min.css");
 body {
-  font-family: 'Noto Sans JP',sans-serif; }
+  font-family: 'Noto Sans JP',sans-serif;
+  background: #b6e4f0; }
 
 .l-header {
   position: fixed;
@@ -29,7 +31,8 @@ body {
 
 .p-header {
   color: #fff;
-  background: #000; }
+  background: #000;
+  opacity: 0.8; }
   .p-header .c-button {
     display: none; }
 
@@ -62,8 +65,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1400px;
   height: 900px;
-  max-width: none;
   background-image: url(../img/eyecatch.png); }
 
 .p-main_top__eyecatch_title {

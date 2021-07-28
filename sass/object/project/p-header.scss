@@ -1,6 +1,7 @@
 .p-header {
     color: #fff;
     background: #000;
+    opacity: 0.8;
 
     .c-button {
         display: none;
@@ -8,12 +9,13 @@
 }
 
 .p-header__container {
-        padding: 0 40px;
-        margin: 0 auto;
-        height: 60px;
-        display: flex;
-        align-items: center
+    padding: 0 40px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    align-items: center
 }
+
 .p-header__area_nav_header {
     margin-left: auto;
 
