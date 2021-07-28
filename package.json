@@ -1,0 +1,12 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "My portfolio site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ojun",
+  "license": "MIT"
+}
