@@ -59,7 +59,7 @@
 
     .p-header__menu {
         background: #000;
-        display: block;
+        display: none;
         position: absolute;
         top: 60px;
         right: 0;
@@ -67,6 +67,13 @@
         height: 100%;
         z-index: 5;
         opacity: 0.7;
+        //transition: all .5s; /* 移動する速さ */
+        //transform: translateX(150px); /* right:0から150px移動した位置 */
+    }
+
+    .p-header__menu.open {
+        display: block;
+        //transform: translateX(0);
     }
 
     .p-header__list_nav_header {

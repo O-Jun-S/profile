@@ -79,7 +79,7 @@ body {
     display: none; }
   .p-header__menu {
     background: #000;
-    display: block;
+    display: none;
     position: absolute;
     top: 60px;
     right: 0;
@@ -87,6 +87,8 @@ body {
     height: 100%;
     z-index: 5;
     opacity: 0.7; }
+  .p-header__menu.open {
+    display: block; }
   .p-header__list_nav_header {
     display: flex;
     flex-direction: column;
