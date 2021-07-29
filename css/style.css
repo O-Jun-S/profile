@@ -153,7 +153,37 @@ body {
   .p-hamburger__line::before {
     top: -5px; }
   .p-hamburger__line::after {
-    top: 5px; } }
+    top: 5px; }
+  .p-hamburger[aria-expanded="true"] .p-hamburger__line {
+    background-color: transparent; }
+  .p-hamburger[aria-expanded="true"] .p-hamburger__line::before,
+  .p-hamburger[aria-expanded="true"] .p-hamburger__line::after {
+    top: 0;
+    background-color: #f9d8ae; }
+  .p-hamburger[aria-expanded="true"] .p-hamburger__line::before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .p-hamburger[aria-expanded="true"] .p-hamburger__line::after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); } }
+
+.p-drawer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  transform: translateX(100%);
+  -webkit-transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out; }
+
+.is-drawerActive .p-drawer {
+  transform: translateX(0); }
 
 .u-visuallyHidden {
   position: absolute;

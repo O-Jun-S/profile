@@ -1,0 +1,17 @@
+.p-drawer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  transform: translateX(100%);
+  -webkit-transition: transform .3s ease-in-out;
+          transition: transform .3s ease-in-out;
+}
+
+.is-drawerActive .p-drawer {
+  transform: translateX(0);
+}

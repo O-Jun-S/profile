@@ -56,4 +56,26 @@
     .p-hamburger__line::after {
         top: 5px;
     }
+
+    .p-hamburger[aria-expanded="true"] .p-hamburger__line {
+        background-color: transparent;
+    }
+
+    .p-hamburger[aria-expanded="true"] .p-hamburger__line::before,
+    .p-hamburger[aria-expanded="true"] .p-hamburger__line::after {
+    top: 0;
+    background-color: #f9d8ae;
+    }
+
+    .p-hamburger[aria-expanded="true"] .p-hamburger__line::before {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    }
+
+    .p-hamburger[aria-expanded="true"] .p-hamburger__line::after {
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    }
 }
