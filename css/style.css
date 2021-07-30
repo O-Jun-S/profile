@@ -17,6 +17,10 @@ body {
   padding: 0 40px;
   margin: 0 auto; }
 
+.c-box {
+  position: relative;
+  display: inline-block; }
+
 .c-logo {
   display: block; }
 
@@ -40,6 +44,9 @@ body {
   border: none;
   background-color: transparent;
   cursor: pointer; }
+
+.c-flex_container {
+  display: flex; }
 
 .p-header {
   color: #fff;
@@ -238,3 +245,7 @@ body {
     padding: 0;
     clip: rect(0 0 0 0);
     clip-path: inset(50%); } }
+
+.u-pos_top_60 {
+  position: absolute;
+  top: 60px; }
