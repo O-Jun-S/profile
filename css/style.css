@@ -223,6 +223,18 @@ body {
 .is-drawerActive .p-drawer {
   transform: translateX(0); }
 
+.p-main_about__flex_container {
+  width: 1200px;
+  padding: 100px;
+  justify-content: space-between;
+  align-items: center; }
+
+.c-flex_container .c-box {
+  width: 500px;
+  height: 300px;
+  margin: 30px;
+  background-color: #8fc1e2; }
+
 .u-visuallyHidden {
   position: absolute;
   white-space: nowrap;
