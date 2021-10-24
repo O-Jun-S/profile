@@ -2,11 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 @import url("https://unpkg.com/ress/dist/ress.min.css");
 body {
-  font-family: 'Noto Sans JP',sans-serif;
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); }
+  font-family: 'Noto Sans JP',sans-serif; }
 
 .l-header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%; }
@@ -14,7 +13,7 @@ body {
 /* container */
 .l-container {
   max-width: 1200px;
-  padding: 0 40px;
+  padding: 0 100px;
   margin: 0 auto; }
 
 .c-box {
@@ -47,6 +46,9 @@ body {
 
 .c-flex_container {
   display: flex; }
+
+.c-title {
+  font-size: 50px; }
 
 .p-header {
   color: #fff;
@@ -121,8 +123,7 @@ body {
   z-index: -9999;
   max-width: 1400px;
   height: 900px;
-  background-image: url(../img/eyecatch.png);
-  opacity: 0.7; }
+  background-image: url(../img/eyecatch.png); }
 
 .p-main_top__eyecatch_title {
   color: #fff;
@@ -234,6 +235,26 @@ body {
   height: 300px;
   margin: 30px;
   background-color: #8fc1e2; }
+
+.p-main_games__container {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: -9999;
+  max-width: 1400px;
+  height: 900px; }
+
+.p-games__title {
+  margin: 0 auto; }
+
+.p-main_games__flex_container {
+  margin: auto; }
+
+.p-main_games__game {
+  padding: 10px 30px;
+  border: solid 3px #6091d3;
+  border-radius: 10px;
+  margin: 30px 30px; }
 
 .u-visuallyHidden {
   position: absolute;
