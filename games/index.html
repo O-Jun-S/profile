@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Ojun</title>
+</head>
+<body>
+    <header class="l-header p-header">
+        <div class="p-header__container">   
+            <div class="p-header__area_logo_header">
+                <div class="c-logo">
+                    <script src="https://tryhackme.com/badge/126922"></script>
+                </div>
+            </div>
+
+            <nav class="p-header__area_nav_header" id="area_nav_header">
+                <ul class="p-header__list_nav_header">
+                    <li>
+                        <a class="c-link" href="">About</a>
+                    </li>
+
+                    <li>
+                        <a class="c-link" href="">Applications</a>
+                    </li>
+
+                    <li>
+                        <a class="c-link" href="">Contact</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <!-- The hamburger button for smartphone. -->
+            <button type="button" id="js-buttonHamburger" class="c-button p-hamburger" aria-controls="area_nav_header" aria-expanded="false">
+                <span class="p-hamburger__line">
+                    <span class="u-visuallyHidden">
+                    メニューを開閉する
+                    </span>
+                </span>
+            </button>
+        </div>
+    </header>
+
+    
+
+    <main class="p-main_top">
+        <!-- Menu for smartphone. -->
+        <nav class="p-header__menu" id="p-header__menu">
+            <ul class="p-header__list_nav_header">
+                <li>
+                    <a class="c-link" href="">About</a>
+                </li>
+
+                <li>
+                    <a class="c-link" href="">Games</a>
+                </li>
+
+                <li>
+                    <a class="c-link" href="">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="l-container p-main_games__container u-pos_top_60">
+            <p class="c-title p-games__title">Games</p>
+            <p>ゲームを作った。JavaScriptで作ったゲームは、基本的に"p5.js"というライブラリを使用している。</p>
+            <p>当たり判定を自分で作るなど、車輪の再発明感があるが、それによってゲームを作る上での基礎知識が身につけられた。</p>
+            <p>p5.jsで作ったゲームは基本的にスマホ・タブレット非対応。</p>
+
+            <div class="c-flex_container p-main_games__flex_container">
+                <div class="p-main_games__game">
+                    <a href="invader/">インベーダーゲーム</a>
+                    <p>JavaScriptで作ったゲーム。</p>
+                    <p>矢印キーで移動。zキーで弾を発射して敵を倒す。それだけ。</p>
+                    <p>戻るボタンはない。自分で戻れ。</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/hamburger.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+// Main content of games page.
+.p-main_games__container {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -9999;
+    max-width: 1400px;
+    height: 900px;
+}
+
+.p-games__title {
+    margin: 0 auto;
+}
+
+.p-main_games__flex_container {
+    margin: auto;
+}
+
+.p-main_games__game {
+    padding: 10px 30px;
+    border: solid 3px #6091d3;
+    border-radius: 10px;
+    margin: 30px 30px;
+}
